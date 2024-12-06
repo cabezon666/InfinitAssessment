@@ -1,4 +1,6 @@
-﻿using InfinitAssessment.Models;
+﻿using InfinitAssessment.DTOs;
+using InfinitAssessment.Mapping;
+using InfinitAssessment.Models;
 using System.Text;
 
 namespace InfinitAssessment.Services
@@ -14,10 +16,10 @@ namespace InfinitAssessment.Services
             _configuration = configuration;
         }
 
-        public async Task<CountResult> AnalyzeRepositoryAsync(string owner, string repo)
+        public async Task<AnalyzeRepositoryResponseDto> AnalyzeRepositoryAsync(string owner, string repo)
         {
             var treeResponse = await GetRepositoryTreeAsync(owner, repo);
-            
+          
             var mapResults = await Task.WhenAll(treeResponse.Tree
                 .Where(item => item.Type == "blob" && (item.Path.EndsWith(".js") || item.Path.EndsWith(".ts")))
                 .Select(async item =>
@@ -37,6 +39,7 @@ namespace InfinitAssessment.Services
                             letterCounts[ch]++;
                         }
                     }
+
                     return new
                     {
                         FileType = item.Path.EndsWith(".js") ? "js" : "ts",
@@ -44,15 +47,12 @@ namespace InfinitAssessment.Services
                         TotalLetters = letterCounts.Values.Sum()
                     };
                 }));
-           
-            var validResults = mapResults.Where(result => result != null);
-           
-            var countResult = new CountResult
-            {
-                NumberOfJsFiles = validResults.Count(r => r.FileType == "js"),
-                NumberOfTsFiles = validResults.Count(r => r.FileType == "ts"),
-                NumberOfLetters = validResults.Sum(r => r.TotalLetters)
-            };
+            
+            var validResults = mapResults.Where(result => result != null); 
+            
+            var numberOfJsFiles = validResults.Count(r => r.FileType == "js");
+            var numberOfTsFiles = validResults.Count(r => r.FileType == "ts");
+            var totalLetters = validResults.Sum(r => r.TotalLetters);
 
             var aggregatedLetterCounts = validResults
                 .SelectMany(r => r.LetterCounts)
@@ -61,17 +61,11 @@ namespace InfinitAssessment.Services
                     g => g.Key,
                     g => g.Sum(kv => kv.Value)
                 );
-
-            countResult.LetterAndQuantity = aggregatedLetterCounts
-                .OrderByDescending(l => l.Value)
-                .Select(l => new LQ
-                {
-                    Letter = l.Key.ToString(),
-                    Quantity = l.Value
-                })
-                .ToList();
-
-            return countResult;
+     
+            return GitHubMapping.MapToAnalyzeRepositoryResponseDto(numberOfJsFiles, 
+                numberOfTsFiles, 
+                totalLetters, 
+                aggregatedLetterCounts);
         }
 
         private async Task<GitHubTreeResponse> GetRepositoryTreeAsync(string owner, string repo)

@@ -12,6 +12,7 @@
     {
         public string Path { get; set; }
         public string Mode { get; set; }
+
         public string Type { get; set; }
         public string Sha { get; set; }
         public long? Size { get; set; }
@@ -22,20 +23,7 @@
     {
         public string Content { get; set; } = "";
         public string Encoding { get; set; } = "";
-    }
 
-    public class CountResult
-    {
-        public long NumberOfLetters { get; set; } = 0;
-        public long NumberOfJsFiles { get; set; } = 0;
-        public long NumberOfTsFiles { get; set; } = 0;
-        public List<LQ> LetterAndQuantity { get; set; } = new List<LQ>();
-    }
 
-    public class LQ
-    {
-        public string Letter { get; set; }
-        public long Quantity { get; set; }
     }
-
 }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("InfinitAssessment")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+90f8185875f8c5c4b9b8de8258eb7203fe550766")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d495148576f96ae32966002119743a64096c07f2")]
 [assembly: System.Reflection.AssemblyProductAttribute("InfinitAssessment")]
 [assembly: System.Reflection.AssemblyTitleAttribute("InfinitAssessment")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

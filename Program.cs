@@ -74,12 +74,12 @@ app.MapGet("/", async context =>
                     document.getElementById('loading').style.display = 'none';             
                     document.getElementById('jsFiles').innerText = data.numberOfJsFiles;
                     document.getElementById('tsFiles').innerText = data.numberOfTsFiles;
-                    document.getElementById('totalLetters').innerText = data.numberOfLetters;
+                    document.getElementById('totalLetters').innerText = data.totalLetters;
                     document.getElementById('summary').style.display = '';   
                     const table = document.getElementById('resultsTable');
                     const tbody = table.querySelector('tbody');
-                    data.letterAndQuantity.forEach(item => {
-                        const percentage = ((item.quantity / data.numberOfLetters) * 100).toFixed(2);
+                    data.letterCounts.forEach(item => {
+                        const percentage = ((item.quantity / data.totalLetters) * 100).toFixed(2);
                         const row = `<tr><td>${item.letter}</td><td>${item.quantity}</td><td>${percentage}</td></tr>`;
                         tbody.innerHTML += row;
                     });
@@ -94,17 +94,8 @@ app.MapGet("/", async context =>
     </body>
     </html>";
 
-    context.Response.ContentType = "text /html";
+    context.Response.ContentType = "text/html";
     await context.Response.WriteAsync(html);
 });
-
-
-// ---> OLD METHOD - TO CHECK THE GITHUB API
-//app.MapGet("/files", async (IGitHubService gitHubService) =>
-//{
-//    var response = await gitHubService.GetRepositoryTreeAsync("lodash", "lodash");
-//    var result = GitHubMapper.MapToDto(response);
-//    return Results.Ok(result);
-//});
 
 app.Run();

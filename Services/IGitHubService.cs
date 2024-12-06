@@ -1,9 +1,9 @@
-﻿using InfinitAssessment.Models;
+﻿using InfinitAssessment.DTOs;
 
 namespace InfinitAssessment.Services
 {
     public interface IGitHubService
     {
-        Task<CountResult> AnalyzeRepositoryAsync(string owner, string repo);
+        Task<AnalyzeRepositoryResponseDto> AnalyzeRepositoryAsync(string owner, string repo);
     }
 }

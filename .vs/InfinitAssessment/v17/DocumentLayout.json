@@ -3,32 +3,8 @@
   "WorkspaceRootPath": "C:\\Development\\Repo\\InfinitAssessment\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C688650E-7899-48EA-A2EA-08AC11D4CD17}|InfinitAssessment.csproj|c:\\development\\repo\\infinitassessment\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
-      "RelativeMoniker": "D:0:0:{C688650E-7899-48EA-A2EA-08AC11D4CD17}|InfinitAssessment.csproj|solutionrelative:readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C688650E-7899-48EA-A2EA-08AC11D4CD17}|InfinitAssessment.csproj|c:\\development\\repo\\infinitassessment\\infinitassessment.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{C688650E-7899-48EA-A2EA-08AC11D4CD17}|InfinitAssessment.csproj|solutionrelative:infinitassessment.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C688650E-7899-48EA-A2EA-08AC11D4CD17}|InfinitAssessment.csproj|c:\\development\\repo\\infinitassessment\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{C688650E-7899-48EA-A2EA-08AC11D4CD17}|InfinitAssessment.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C688650E-7899-48EA-A2EA-08AC11D4CD17}|InfinitAssessment.csproj|c:\\development\\repo\\infinitassessment\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{C688650E-7899-48EA-A2EA-08AC11D4CD17}|InfinitAssessment.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C688650E-7899-48EA-A2EA-08AC11D4CD17}|InfinitAssessment.csproj|c:\\development\\repo\\infinitassessment\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{C688650E-7899-48EA-A2EA-08AC11D4CD17}|InfinitAssessment.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C688650E-7899-48EA-A2EA-08AC11D4CD17}|InfinitAssessment.csproj|c:\\development\\repo\\infinitassessment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C688650E-7899-48EA-A2EA-08AC11D4CD17}|InfinitAssessment.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C688650E-7899-48EA-A2EA-08AC11D4CD17}|InfinitAssessment.csproj|c:\\development\\repo\\infinitassessment\\infinitassessment.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{C688650E-7899-48EA-A2EA-08AC11D4CD17}|InfinitAssessment.csproj|solutionrelative:infinitassessment.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+      "AbsoluteMoniker": "D:0:0:{C688650E-7899-48EA-A2EA-08AC11D4CD17}|InfinitAssessment.csproj|c:\\development\\repo\\infinitassessment\\services\\igithubservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C688650E-7899-48EA-A2EA-08AC11D4CD17}|InfinitAssessment.csproj|solutionrelative:services\\igithubservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C688650E-7899-48EA-A2EA-08AC11D4CD17}|InfinitAssessment.csproj|c:\\development\\repo\\infinitassessment\\services\\githubservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -43,16 +19,40 @@
       "RelativeMoniker": "D:0:0:{C688650E-7899-48EA-A2EA-08AC11D4CD17}|InfinitAssessment.csproj|solutionrelative:mapping\\githubmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C688650E-7899-48EA-A2EA-08AC11D4CD17}|InfinitAssessment.csproj|c:\\development\\repo\\infinitassessment\\dtos\\treeitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C688650E-7899-48EA-A2EA-08AC11D4CD17}|InfinitAssessment.csproj|solutionrelative:dtos\\treeitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C688650E-7899-48EA-A2EA-08AC11D4CD17}|InfinitAssessment.csproj|c:\\development\\repo\\infinitassessment\\dtos\\countresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C688650E-7899-48EA-A2EA-08AC11D4CD17}|InfinitAssessment.csproj|solutionrelative:dtos\\countresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C688650E-7899-48EA-A2EA-08AC11D4CD17}|InfinitAssessment.csproj|c:\\development\\repo\\infinitassessment\\dtos\\githubtreedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C688650E-7899-48EA-A2EA-08AC11D4CD17}|InfinitAssessment.csproj|solutionrelative:dtos\\githubtreedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C688650E-7899-48EA-A2EA-08AC11D4CD17}|InfinitAssessment.csproj|c:\\development\\repo\\infinitassessment\\infinitassessment.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{C688650E-7899-48EA-A2EA-08AC11D4CD17}|InfinitAssessment.csproj|solutionrelative:infinitassessment.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C688650E-7899-48EA-A2EA-08AC11D4CD17}|InfinitAssessment.csproj|c:\\development\\repo\\infinitassessment\\services\\igithubservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C688650E-7899-48EA-A2EA-08AC11D4CD17}|InfinitAssessment.csproj|solutionrelative:services\\igithubservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C688650E-7899-48EA-A2EA-08AC11D4CD17}|InfinitAssessment.csproj|c:\\development\\repo\\infinitassessment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C688650E-7899-48EA-A2EA-08AC11D4CD17}|InfinitAssessment.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C688650E-7899-48EA-A2EA-08AC11D4CD17}|InfinitAssessment.csproj|c:\\development\\repo\\infinitassessment\\infinitassessment.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C688650E-7899-48EA-A2EA-08AC11D4CD17}|InfinitAssessment.csproj|solutionrelative:infinitassessment.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C688650E-7899-48EA-A2EA-08AC11D4CD17}|InfinitAssessment.csproj|c:\\development\\repo\\infinitassessment\\infinitassessment.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{C688650E-7899-48EA-A2EA-08AC11D4CD17}|InfinitAssessment.csproj|solutionrelative:infinitassessment.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C688650E-7899-48EA-A2EA-08AC11D4CD17}|InfinitAssessment.csproj|c:\\development\\repo\\infinitassessment\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{C688650E-7899-48EA-A2EA-08AC11D4CD17}|InfinitAssessment.csproj|solutionrelative:readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C688650E-7899-48EA-A2EA-08AC11D4CD17}|InfinitAssessment.csproj|c:\\development\\repo\\infinitassessment\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C688650E-7899-48EA-A2EA-08AC11D4CD17}|InfinitAssessment.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C688650E-7899-48EA-A2EA-08AC11D4CD17}|InfinitAssessment.csproj|c:\\development\\repo\\infinitassessment\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C688650E-7899-48EA-A2EA-08AC11D4CD17}|InfinitAssessment.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C688650E-7899-48EA-A2EA-08AC11D4CD17}|InfinitAssessment.csproj|c:\\development\\repo\\infinitassessment\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C688650E-7899-48EA-A2EA-08AC11D4CD17}|InfinitAssessment.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,45 +62,105 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "README.md",
-              "DocumentMoniker": "C:\\Development\\Repo\\InfinitAssessment\\README.md",
-              "RelativeDocumentMoniker": "README.md",
-              "ToolTip": "C:\\Development\\Repo\\InfinitAssessment\\README.md",
-              "RelativeToolTip": "README.md",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2024-12-05T17:19:07.207Z",
+              "DocumentIndex": 5,
+              "Title": "InfinitAssessment",
+              "DocumentMoniker": "C:\\Development\\Repo\\InfinitAssessment\\InfinitAssessment.csproj",
+              "RelativeDocumentMoniker": "InfinitAssessment.csproj",
+              "ToolTip": "C:\\Development\\Repo\\InfinitAssessment\\InfinitAssessment.csproj",
+              "RelativeToolTip": "InfinitAssessment.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-06T01:33:37.769Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Development\\Repo\\InfinitAssessment\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
-              "ToolTip": "C:\\Development\\Repo\\InfinitAssessment\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-05T17:10:25.953Z",
+              "DocumentIndex": 4,
+              "Title": "CountResultDTO.cs",
+              "DocumentMoniker": "C:\\Development\\Repo\\InfinitAssessment\\DTOs\\CountResultDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\CountResultDTO.cs",
+              "ToolTip": "C:\\Development\\Repo\\InfinitAssessment\\DTOs\\CountResultDTO.cs",
+              "RelativeToolTip": "DTOs\\CountResultDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T01:19:18.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Development\\Repo\\InfinitAssessment\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Development\\Repo\\InfinitAssessment\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGAAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T01:19:32.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IGitHubService.cs",
+              "DocumentMoniker": "C:\\Development\\Repo\\InfinitAssessment\\Services\\IGitHubService.cs",
+              "RelativeDocumentMoniker": "Services\\IGitHubService.cs",
+              "ToolTip": "C:\\Development\\Repo\\InfinitAssessment\\Services\\IGitHubService.cs",
+              "RelativeToolTip": "Services\\IGitHubService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T09:45:08.624Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "GitHubService.cs",
+              "DocumentMoniker": "C:\\Development\\Repo\\InfinitAssessment\\Services\\GitHubService.cs",
+              "RelativeDocumentMoniker": "Services\\GitHubService.cs",
+              "ToolTip": "C:\\Development\\Repo\\InfinitAssessment\\Services\\GitHubService.cs",
+              "RelativeToolTip": "Services\\GitHubService.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAgwD4AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T09:45:26.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GitHubMapper.cs",
+              "DocumentMoniker": "C:\\Development\\Repo\\InfinitAssessment\\Mapping\\GitHubMapper.cs",
+              "RelativeDocumentMoniker": "Mapping\\GitHubMapper.cs",
+              "ToolTip": "C:\\Development\\Repo\\InfinitAssessment\\Mapping\\GitHubMapper.cs",
+              "RelativeToolTip": "Mapping\\GitHubMapper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T09:44:18.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GitHubTreeResponse.cs",
+              "DocumentMoniker": "C:\\Development\\Repo\\InfinitAssessment\\Models\\GitHubTreeResponse.cs",
+              "RelativeDocumentMoniker": "Models\\GitHubTreeResponse.cs",
+              "ToolTip": "C:\\Development\\Repo\\InfinitAssessment\\Models\\GitHubTreeResponse.cs",
+              "RelativeToolTip": "Models\\GitHubTreeResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T09:44:30.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "InfinitAssessment.csproj",
               "DocumentMoniker": "C:\\Development\\Repo\\InfinitAssessment\\InfinitAssessment.csproj",
               "RelativeDocumentMoniker": "InfinitAssessment.csproj",
@@ -113,7 +173,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "InfinitAssessment.http",
               "DocumentMoniker": "C:\\Development\\Repo\\InfinitAssessment\\InfinitAssessment.http",
               "RelativeDocumentMoniker": "InfinitAssessment.http",
@@ -121,59 +181,36 @@
               "RelativeToolTip": "InfinitAssessment.http",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2024-12-05T16:24:12.299Z"
+              "WhenOpened": "2024-12-05T16:24:12.299Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Development\\Repo\\InfinitAssessment\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Development\\Repo\\InfinitAssessment\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T09:40:14.795Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "IGitHubService.cs",
-              "DocumentMoniker": "C:\\Development\\Repo\\InfinitAssessment\\Services\\IGitHubService.cs",
-              "RelativeDocumentMoniker": "Services\\IGitHubService.cs",
-              "ToolTip": "C:\\Development\\Repo\\InfinitAssessment\\Services\\IGitHubService.cs",
-              "RelativeToolTip": "Services\\IGitHubService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T09:45:08.624Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "GitHubService.cs",
-              "DocumentMoniker": "C:\\Development\\Repo\\InfinitAssessment\\Services\\GitHubService.cs",
-              "RelativeDocumentMoniker": "Services\\GitHubService.cs",
-              "ToolTip": "C:\\Development\\Repo\\InfinitAssessment\\Services\\GitHubService.cs",
-              "RelativeToolTip": "Services\\GitHubService.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAYwCQAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T09:45:26.895Z"
+              "DocumentIndex": 10,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Development\\Repo\\InfinitAssessment\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Development\\Repo\\InfinitAssessment\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-05T17:10:25.953Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "GitHubMapper.cs",
-              "DocumentMoniker": "C:\\Development\\Repo\\InfinitAssessment\\Mapping\\GitHubMapper.cs",
-              "RelativeDocumentMoniker": "Mapping\\GitHubMapper.cs",
-              "ToolTip": "C:\\Development\\Repo\\InfinitAssessment\\Mapping\\GitHubMapper.cs",
-              "RelativeToolTip": "Mapping\\GitHubMapper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T09:44:18.858Z"
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Development\\Repo\\InfinitAssessment\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "C:\\Development\\Repo\\InfinitAssessment\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2024-12-05T17:19:07.207Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 11,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Development\\Repo\\InfinitAssessment\\appsettings.Development.json",
               "RelativeDocumentMoniker": "appsettings.Development.json",
@@ -185,7 +222,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 12,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Development\\Repo\\InfinitAssessment\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -194,42 +231,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-12-05T09:56:50.215Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "TreeItemDto.cs",
-              "DocumentMoniker": "C:\\Development\\Repo\\InfinitAssessment\\DTOs\\TreeItemDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\TreeItemDto.cs",
-              "ToolTip": "C:\\Development\\Repo\\InfinitAssessment\\DTOs\\TreeItemDto.cs",
-              "RelativeToolTip": "DTOs\\TreeItemDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T09:43:45.738Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "GitHubTreeDto.cs",
-              "DocumentMoniker": "C:\\Development\\Repo\\InfinitAssessment\\DTOs\\GitHubTreeDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\GitHubTreeDto.cs",
-              "ToolTip": "C:\\Development\\Repo\\InfinitAssessment\\DTOs\\GitHubTreeDto.cs",
-              "RelativeToolTip": "DTOs\\GitHubTreeDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T09:43:33.344Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "GitHubTreeResponse.cs",
-              "DocumentMoniker": "C:\\Development\\Repo\\InfinitAssessment\\Models\\GitHubTreeResponse.cs",
-              "RelativeDocumentMoniker": "Models\\GitHubTreeResponse.cs",
-              "ToolTip": "C:\\Development\\Repo\\InfinitAssessment\\Models\\GitHubTreeResponse.cs",
-              "RelativeToolTip": "Models\\GitHubTreeResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T09:44:30.832Z"
             }
           ]
         }
